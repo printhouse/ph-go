@@ -9,13 +9,19 @@ import (
 
 var dummyShippingQuote = &ShippingQuote{}
 
-func TestGetShippingQuote(t *testing.T) {
-	result := ph.GetShippingQuote("id")
-	assert.T(t, result == nil, "should be nil")
-}
 
 func TestPostShippingQuote(t *testing.T) {
 	result := ph.PostShippingQuote(dummyShippingQuote)
+	assert.T(t, result == nil, "should be nil")
+}
+
+func TestGetShippingQuotse(t *testing.T) {
+	result := ph.GetShippingQuotes()
+	assert.T(t, result == nil, "should be nil")
+}
+
+func TestGetShippingQuote(t *testing.T) {
+	result := ph.GetShippingQuote("id")
 	assert.T(t, result == nil, "should be nil")
 }
 
