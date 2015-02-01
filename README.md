@@ -6,7 +6,12 @@ The GO API client for printhouse.io
 
 ## Installation
 ```
-go get github.com/printhouse/ph-go
+
+    go get github.com/parnurzeal/gorequest
+    go get github.com/franela/goblin
+    go get github.com/bitly/go-simplejson
+    go get github.com/avelino/awesome-go
+    go get github.com/printhouse/ph-go
 ```
 
 ## How-to-use
@@ -33,7 +38,7 @@ go get github.com/printhouse/ph-go
 - Read the Endpoints.md file on the project root.
 - To see which endpoints you have access to, check out printhouse web-api [documentation.](http://www.printhouse.io/faqs/)
 
-## Links
+## Dependencies
 
 This project was created using these awesome libraries, check them out:
 
