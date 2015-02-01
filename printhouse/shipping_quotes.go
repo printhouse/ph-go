@@ -7,8 +7,8 @@ package printhouse
 //
 // If positive, the ShippingQuote will have a new Id.
 // Usage:
-//	1: ph.PostShippingQuote(&ShippingQuote{Product: "0001", FileUrl: "http://dom.myFile.host"})
-func (ph *Printhouse) PostShippingQuote(printfile *ShippingQuote) *ShippingQuote {
+//	1: ph.PostShippingQuote(&ShippingQuote{...})
+func (ph *Printhouse) PostShippingQuote(sq *ShippingQuote) *ShippingQuote {
 	return nil
 }
 
