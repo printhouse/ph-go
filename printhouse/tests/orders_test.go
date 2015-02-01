@@ -9,10 +9,9 @@ import (
 
 var dummyOrder = &Order{}
 
-func TestGet(t *testing.T) {
-	result, err := ph.Get("products/%s", nil, "0001")
-	assert.T(t, result != nil, "Shouldnt be null")
-	assert.T(t, err != nil, "Shouldnt be null")
+func TestGetOrders(t *testing.T) {
+	result := ph.GetOrders()
+	assert.T(t, result == nil, "should be nil")
 }
 
 func TestGetOrder(t *testing.T) {
