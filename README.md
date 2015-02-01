@@ -6,7 +6,6 @@ The GO API client for printhouse.io
 
 ## Installation
 ```
-
     go get github.com/parnurzeal/gorequest
     go get github.com/franela/goblin
     go get github.com/bitly/go-simplejson
@@ -19,7 +18,6 @@ The GO API client for printhouse.io
 - Get Requests
 
 ```
-
     import "fmt"
     import printhouse "github.com/printhouse/ph-go"
     ...
@@ -43,7 +41,7 @@ The GO API client for printhouse.io
 This project was created using these awesome libraries, check them out:
 
  - http://github.com/parnurzeal/gorequest
- - http://github.com/bmizerany/assert
+ - http://github.com/franela/goblin
  - http://github.com/bitly/go-simplejson
  - http://github.com/avelino/awesome-go
 
