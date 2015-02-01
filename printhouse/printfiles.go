@@ -17,7 +17,7 @@ func (ph *Printhouse) GetPrintFiles() []PrintFile {
 //
 // Usage:
 //	1: ph.GetPrintFile("54808653b7017c7f795a6ac6")
-func (ph *Printhouse) GetPrintFile(id string) PrintFile {
+func (ph *Printhouse) GetPrintFile(id string) *PrintFile {
 	return nil
 }
 

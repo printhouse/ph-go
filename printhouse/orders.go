@@ -15,7 +15,7 @@ func (ph *Printhouse) GetOrders() []Order {
 //
 // Usage:
 //	1: ph.GetOrder("54808653b7017c7f795a6ac6")
-func (ph *Printhouse) GetOrder(id string) Order {
+func (ph *Printhouse) GetOrder(id string) *Order {
 	return nil
 }
 

@@ -24,7 +24,7 @@ func (ph *Printhouse) GetShippingQuotes() []ShippingQuote {
 //
 // Usage:
 //	1: ph.GetShippingQuote("54808653b7017c7f795a6ac6")
-func (ph *Printhouse) GetShippingQuote(id string) ShippingQuote {
+func (ph *Printhouse) GetShippingQuote(id string) *ShippingQuote {
 	return nil
 }
 

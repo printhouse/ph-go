@@ -22,7 +22,7 @@ func (ph *Printhouse) GetProducts(filters string) []Product {
 //
 // Usage:
 //	1: ph.GetProduct("54808653b7017c7f795a6ac6")
-func (ph *Printhouse) GetProduct(id string) Product {
+func (ph *Printhouse) GetProduct(id string) *Product {
 	return nil
 }
 
