@@ -1,6 +1,6 @@
 # ph-go
 
-[![GoDoc](https://godoc.org/github.com/printhouse/ph-go?status.svg)](https://godoc.org/github.com/printhouse/ph-go)
+[![GoDoc](https://godoc.org/github.com/rapito/ph-go/printhouse?status.svg)](https://godoc.org/github.com/rapito/ph-go/printhouse)
 
 The GO API client for printhouse.io
 
