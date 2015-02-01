@@ -4,21 +4,21 @@
 package printhouse
 
 type Product struct{
-	id          string
-	kind        string
-	description string
-	price       float64
-	x_inches    int16
-	y_inches    int16
-	x_pixels    int16
-	y_pixels    int16
-	format      string
+	Id          string
+	Kind        string
+	Description string
+	Price       float64
+	XInches     int16
+	YInches     int16
+	XPixels     int16
+	YPixels     int16
+	Format      string
 }
 
 type PrintFile struct{
-	product  string
-	file_url string
-	id       string
+	Product  string
+	FileUrl  string
+	Id       string
 }
 
 type Order struct{
