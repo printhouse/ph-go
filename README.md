@@ -8,7 +8,7 @@ The GO API client for printhouse.io
 ```
 
     go get github.com/parnurzeal/gorequest
-    go get github.com/franela/goblin
+    go get github.com/bmizerany/assert
     go get github.com/bitly/go-simplejson
     go get github.com/avelino/awesome-go
     go get github.com/printhouse/ph-go
