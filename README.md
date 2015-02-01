@@ -41,7 +41,7 @@ The GO API client for printhouse.io
 This project was created using these awesome libraries, check them out:
 
  - http://github.com/parnurzeal/gorequest
- - http://github.com/franela/goblin
+ - http://github.com/franela/assert
  - http://github.com/bitly/go-simplejson
  - http://github.com/avelino/awesome-go
 
