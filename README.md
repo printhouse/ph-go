@@ -21,7 +21,7 @@ The GO API client for printhouse.io
 ```
 
     import "fmt"
-    import printhouse "github.com/printhouse/ph-go"
+    import "github.com/printhouse/ph-go/printhouse"
     ...
 
     ph := printhouse.New(clientID,clientSecret)
