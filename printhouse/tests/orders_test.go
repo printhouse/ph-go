@@ -4,7 +4,6 @@ import (
 	"testing"
 	"github.com/bmizerany/assert"
 	. "github.com/rapito/ph-go/printhouse"
-
 )
 
 var dummyOrder = &Order{}
